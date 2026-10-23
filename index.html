@@ -16,6 +16,29 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      .pub-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+        transition: color 180ms ease, transform 180ms ease;
+      }
+      .pub-link:hover,
+      .pub-link:focus-visible {
+        color: #5eead4;
+        transform: translate(2px, -2px);
+        text-decoration: underline;
+        text-underline-offset: 4px;
+      }
+      .pub-link:focus-visible {
+        outline: 2px solid #5eead4;
+        outline-offset: 4px;
+        border-radius: 3px;
+      }
+    </style>
   </head>
   <body>
     <div class="ambient ambient-one"></div>
@@ -499,7 +522,7 @@
                 Systems.
               </p>
             </div>
-            <span class="pub-arrow" href="https://ieeexplore.ieee.org/document/11076433/">↗</span>
+            <a class="pub-arrow pub-link" href="https://ieeexplore.ieee.org/document/11076433/" target="_blank" rel="noopener noreferrer" aria-label="Read SEO Auditing Tool paper on IEEE Xplore">↗</a>
           </article>
           <article>
             <span class="pub-year">2025</span>
@@ -515,7 +538,7 @@
                 Computing Applications.
               </p>
             </div>
-            <span class="pub-arrow" href="https://ieeexplore.ieee.org/document/11089782">↗</span>
+            <a class="pub-arrow pub-link" href="https://ieeexplore.ieee.org/document/11089782" target="_blank" rel="noopener noreferrer" aria-label="Read Blockchain Sharding paper on IEEE Xplore">↗</a>
           </article>
         </div>
       </section>
